@@ -553,7 +553,7 @@ public abstract class SelectionTool<T>( MeshTool tool ) : SelectionTool where T 
 
 		if ( Gizmo.IsShiftPressed )
 		{
-			ExtrudeSelection( delta );
+			ExtrudeSelection( -delta );
 		}
 		else
 		{
